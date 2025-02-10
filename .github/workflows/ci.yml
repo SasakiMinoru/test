@@ -24,6 +24,6 @@ jobs:
       -
         uses: k2tzumi/runn-action@latest
         with:
-          path_pattern: day22/github-action.yml
+          path_pattern: run_day/github-action.yml
         env:
           HTTPBIN_END_POINT: http://172.17.0.1:8080/
